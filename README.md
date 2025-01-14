@@ -1,4 +1,37 @@
-# Number Guessing Game
+Build a Number Guessing Game
+============================
+
+This is one of the required projects to earn your certification. For this project, you will use Bash scripting, PostgreSQL, and Git to create a number guessing game that runs in the terminal and saves user information.
+
+This course runs in a virtual Linux machine using Gitpod. Follow these instructions to start the course:
+
+1.  [Create a GitHub](https://github.com/join "Source Code Link") account if you don't have one
+2.  Click the start button below
+3.  Login to Gitpod with your GitHub account if you aren't already
+4.  Once the virtual Linux machine is finished loading, start the CodeRoad extension by:
+    *   Clicking the "hamburger" menu near the top left of the VSCode window,
+    *   Going to the "View" menu,
+    *   Clicking on the "Command Palette" option,
+    *   and running the "CodeRoad: Start" command
+5.  Follow the instructions in CodeRoad to complete the course
+
+Complete both steps below to finish the challenge.
+
+* * *
+
+Step 1: Complete the project
+----------------------------
+
+The project runs in a virtual machine, complete the user stories described in there and get all the tests to pass to finish step 1.
+
+**Important:** After you pass all the project tests, save a dump of your database into a `number_guess.sql` file, as well as your `number_guess.sh` file, so you can complete step 2. There will be instructions on how to do that within the virtual machine.
+
+> Clicking the button below will start a new project. If you have previously started the Build a Number Guessing Game course, go to [your Gitpod dashboard](https://gitpod.io/workspaces) to continue.
+> 
+> Learn more about [Gitpod workspaces.](https://forum.freecodecamp.org/t/using-gitpod-in-the-curriculum/668669)
+
+> If you log out of freeCodeCamp before you complete the entire Build a Number Guessing Game course, your progress will not be saved to your freeCodeCamp account.
+
 #### Open [file `solution.txt`](solution.txt) To follow my terminal command. Solutions divided into several steps :
     1. Prepare database.
     2. Primary Key and Foreign Key assignment.
@@ -7,11 +40,6 @@
     5. Prepare shell script file.
     6. Copy scipt line by line, meanwhile commit changes on terminal.
     7. Run The Script.
-
-#### Documentation can be found on : [https://github.com/viktoriussuwandi/Number-Guessing-Game](https://github.com/viktoriussuwandi/Number-Guessing-Game)
-
-This is the result to complete the Number Guessing Game project. 
-Instructions for building this project can be found at [https://www.freecodecamp.org/learn/relational-database/build-a-number-guessing-game-project/build-a-number-guessing-game](https://www.freecodecamp.org/learn/relational-database/build-a-number-guessing-game-project/build-a-number-guessing-game)
 
 ## Instructions
 To complete this project, you need to write a script that generates a random number between 1 and 1000 for users to guess. Create a `number_guess` database to hold the information suggested in the user stories. Connect to the interactive psql shell with `psql --username=freecodecamp --dbname=postgres` to create the database. In your script, you can create a PSQL variable for querying the database like this: `PSQL="psql --username=freecodecamp --dbname=<database_name> -t --no-align -c"`. Your script should only ask for input from the user to get the `username` and to take guesses. The tests will add `users` to your database when the script has that ability, feel free to delete those. Some script related `user` stories may not pass until the script is completely working. Don't forget to commit your work frequently.
@@ -38,3 +66,12 @@ If you are saving your progress on [freeCodeCamp.org](https://www.freecodecamp.o
 14. The message for the first commit should be `Initial commit`.
 15. The rest of the commit messages should start with `fix:`, `feat:`, `refactor:`, `chore:`, or `test:`.
 16. You should finish your project while on the `main` branch, your working tree should be clean, and you should not have any uncommitted changes.
+
+* * *
+
+Step 2: Submit your code
+------------------------
+
+When you have completed the project, save all the required files into a public repository and submit the URL to it below.
+
+Required files: `number_guess.sql`, `number_guess.sh`
